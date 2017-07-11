@@ -1,7 +1,15 @@
 .nav{
 height:50px;
 background-color:black;
-border:1px solid black;
+}
+.logo-container{
+  display:flex;
+  justify-content:left;
+  align-items:center;
+}
+.logo{
+  height:100%;
+  width:90px;
 }
 .menu{
   float:right;
@@ -9,7 +17,7 @@ border:1px solid black;
 }
 .header{
 height:500px;
-background-color:white;
+background-color:black;
 border:1px solid black;
 }
 .hero{
@@ -19,19 +27,40 @@ border:1px solid black;
   color:#fff;
   height:450px;
   margin-top:25px;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 }
 .split{
 height:400px;
-background-color:purple;
+background-color:black;
 border:1px solid black;
+display:flex;
+justify-content:space-around;
+align-items:center;
 }
 .info{
   height:200px;
-  background-color:yellow;
+  background-color:black;
   border:1px solid black;
+  display:flex;
+  justify-content:center;
+}
+.thats-all{
+  width:50%;
+  height:60px;
 }
 .footer{
   height:100px;
-  background-color:green;
+  background-color:black;
+  border:1px solid black;
+}
+.btn{
+  color:white;
+  background-color:black;
+  border:1px solid white;
+}
+.btn:hover{
+  color:black;
+  background-color:white;
   border:1px solid black;
 }
